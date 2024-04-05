@@ -1,0 +1,182 @@
+body {
+    background-color: #DCDCDC;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Broadcast section styling */
+#contact {
+    padding: 60px 0;
+}
+
+#contact h2 {
+    color: red;
+    background-color: #be6231;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Livebox styling */
+.livebox {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.livebox a {
+    text-decoration: none;
+}
+
+.livebox video {
+    border-radius: 10px;
+}
+
+/* Comment section styling */
+.container form {
+    margin-bottom: 30px;
+}
+
+.container form textarea {
+    width: 60%;
+}
+
+.container form button {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 7px;
+    color: #fff;
+    background-color: #008374;
+}
+
+.container form button:hover {
+    background-color: #005c5c;
+}
+
+.container .username {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #008374;
+}
+
+.container .fa-star {
+    color: #FFD700; /* Gold color for stars */
+}
+
+.container .comment {
+    font-size: 15px;
+}
+
+.container .actions a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #008374;
+    font-weight: bold;
+}
+
+.container .actions a:hover {
+    color: #005c5c;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #005c5c;
+}
+
+/* Scroll top button styling */
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #008374;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.scroll-top i {
+    font-size: 24px;
+}
+
+
+    .checked {
+        color: orange;
+    }
+    
+ /* Navbar styling */
+.navbar {
+    background-color: #008374; /* Background color of the navbar */
+    padding: 15px 0; /* Padding for the navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* Text color of the brand */
+}
+
+.navbar-toggler-icon {
+    color: #fff; /* Color of the navbar toggler icon */
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important; /* Text color of the navbar links */
+    margin-right: 15px; /* Spacing between navbar links */
+}
+
+.nav-link.active {
+    font-weight: bold; /* Style for the active link */
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    background-color: #fff; /* Background color of the dropdown menu */
+    border: 1px solid #ddd; /* Border color of the dropdown menu */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+}
+
+.dropdown-item {
+    color: #333; /* Text color of dropdown items */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #be6231; /* Background color on hover or focus */
+}
+
+.dropdown-menu a {
+    padding: 8px 16px; /* Padding for dropdown items */
+}
+
+.dropdown-menu li {
+    list-style: none; /* Remove default list-style */
+}
+
+/* Search form styling */
+.form-control {
+    border: 1px solid #ddd; /* Border color of the search input */
+    margin-right: 10px; /* Spacing between search input and search button */
+}
+
+.btn-outline-success {
+    color: #008374; /* Text color of the search button */
+    border-color: #008374; /* Border color of the search button */
+}
+
+.btn-outline-success:hover {
+    background-color: #008374; /* Background color on hover for the search button */
+    color: #fff; /* Text color on hover for the search button */
+}
